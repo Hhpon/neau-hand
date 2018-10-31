@@ -13,49 +13,49 @@ export default {
     return {
       imgdatas: [
         {
-          src: "https://weappcdn.hhp.im/neau-hand/entrepreneurship/cm.jpg",
+          src: "http://neau-hand.hhp.im/img/cm.jpg",
           value: "东农传媒",
           url:
             "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI5NzIyOTkyMQ==&scene=124#wechat_redirect"
         },
         {
-          src: "https://weappcdn.hhp.im/neau-hand/entrepreneurship/cx.jpg",
+          src: "http://neau-hand.hhp.im/img/cx.jpg",
           value: "东农创行",
           url:
             "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MjM5MjMzNTU5NQ==&scene=124#wechat_redirect"
         },
         {
-          src: "https://weappcdn.hhp.im/neau-hand/entrepreneurship/hh.jpg",
+          src: "http://neau-hand.hhp.im/img/hh.jpg",
           value: "东小农黑土地黄豆",
           url:
             "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA4MTM2NDc0Ng==&scene=124#wechat_redirect"
         },
         {
-          src: "https://weappcdn.hhp.im/neau-hand/entrepreneurship/qz.jpg",
+          src: "http://neau-hand.hhp.im/img/qz.jpg",
           value: "茄子咔",
           url:
             "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA5NzkyMDQ1MA==&scene=124#wechat_redirect"
         },
         {
-          src: "https://weappcdn.hhp.im/neau-hand/entrepreneurship/mg.jpg",
+          src: "http://neau-hand.hhp.im/img/mg.jpg",
           value: "蜜疏果蔬",
           url:
             "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAxNzcyOTU2OA==&scene=124#wechat_redirect"
         },
         {
-          src: "https://weappcdn.hhp.im/neau-hand/entrepreneurship/xs.jpg",
+          src: "http://neau-hand.hhp.im/img/xs.jpg",
           value: "奶酪先森",
           url:
             "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIyODU3NDY3Mg==&scene=124#wechat_redirect"
         },
         {
-          src: "https://weappcdn.hhp.im/neau-hand/entrepreneurship/qy.jpg",
+          src: "http://neau-hand.hhp.im/img/qy.jpg",
           value: "青藤驿站",
           url:
             "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA3NDQzNjI2NQ==&scene=124#wechat_redirect"
         },
         {
-          src: "https://weappcdn.hhp.im/neau-hand/entrepreneurship/zz.jpg",
+          src: "http://neau-hand.hhp.im/img/zz.jpg",
           value: "纸张记忆",
           url:
             "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI3MDA1MDQ0OQ==&scene=124#wechat_redirect"
