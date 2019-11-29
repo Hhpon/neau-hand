@@ -1,10 +1,10 @@
 <template>
-    <div class='container'>
-        <a :href='imgdata.url' v-for='imgdata in imgdatas' :key='imgdata'>
-            <img :src="imgdata.src" alt="" width="60%">
-            <div class="button-text">{{imgdata.value}}</div>
-        </a>
-    </div>
+  <div class="container">
+    <a :href="imgdata.url" v-for="(imgdata,index) in imgdatas" :key="index">
+      <img :src="imgdata.src" alt width="60%" />
+      <div class="button-text">{{imgdata.value}}</div>
+    </a>
+  </div>
 </template>
 
 <script>
@@ -66,15 +66,10 @@ export default {
           url:
             "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI3MDY2MTIzMQ==&scene=124#wechat_redirect"
         },
-        {
-          src: "http://neau-hand.hhp.im/img/wf.jpg",
-          value: "文法学院",
-          url:
-            "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI2NTA0NjkyNw==&scene=124#wechat_redirect"
-        },
+
         {
           src: "http://neau-hand.hhp.im/img/lxy.jpg",
-          value: "理学院",
+          value: "文理学院",
           url:
             "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MjM5Njk0NDU5NA==&scene=124#wechat_redirect"
         },
@@ -94,13 +89,19 @@ export default {
           src: "http://neau-hand.hhp.im/img/gj.jpg",
           value: "国际文化教育学院",
           url:
-            "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAxMjU1MTAwMQ==&scene=124#wechat_redirect"
+            "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI3MjkxODc5Ng==&scene=124#wechat_redirect"
         },
         {
           src: "http://neau-hand.hhp.im/img/dk.jpg",
           value: "动物科学技术学院",
           url:
             "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI3NzA3NDMwMw==&scene=124#wechat_redirect"
+        },
+        {
+          src: "http://neau-hand.hhp.im/img/gg.jpg",
+          value: "公共管理与法学院",
+          url:
+            "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI3NzA2OTU4Mg==&scene=124&uin=&key=&devicetype=Windows+10&version=620603c8&lang=zh_CN&a8scene=7&winzoom=1"
         }
       ]
     };
@@ -122,11 +123,11 @@ export default {
     text-decoration: none;
     font-size: 13px;
     margin-top: 10px;
-    .button-text{
-        width: 80%;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
+    .button-text {
+      width: 80%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
   }
 }

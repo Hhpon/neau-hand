@@ -1,10 +1,10 @@
 <template>
-    <div class='container'>
-        <a :href='imgdata.url' v-for='imgdata in imgdatas' :key='imgdata'>
-            <img :src="imgdata.src" alt="" width="60%">
-            <div class="button-text">{{imgdata.value}}</div>
-        </a>
-    </div>
+  <div class="container">
+    <a :href="imgdata.url" v-for="(imgdata,index) in imgdatas" :key="index">
+      <img :src="imgdata.src" alt width="60%" />
+      <div class="button-text">{{imgdata.value}}</div>
+    </a>
+  </div>
 </template>
 
 <script>
